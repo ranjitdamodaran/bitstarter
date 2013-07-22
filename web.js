@@ -1,5 +1,7 @@
 var express = require("express");
 var app = express();
+app.use(express.static(__dirname + '/img'));
+
 
 var fs = require ('fs');
 var text = fs.readFileSync('index.html','utf8');
