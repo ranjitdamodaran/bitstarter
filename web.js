@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+//Removed this since it is givind some error
 //var app = express.createServer(express.logger());
 app.use(express.static(__dirname + '/img'));
 
